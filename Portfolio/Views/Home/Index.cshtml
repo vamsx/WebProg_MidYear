@@ -1,0 +1,111 @@
+﻿<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style>
+
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Russo One', sans-serif;
+        }
+
+        .splash-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #2962ff;
+            text-align: center;
+        }
+
+            .splash-container .title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #eeff41;
+            }
+
+                .splash-container .title img {
+                    width: 200px;
+                    height: 200px;
+                    border: solid 3px white;
+                    border-radius: 50%;
+                    -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+                    box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+                }
+
+                .splash-container .title h1 {
+                    margin-bottom: 0px;
+                }
+
+                .splash-container .title h4 {
+                    margin: 0px;
+                    color: #ffff78s
+                }
+
+            .splash-container .links {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.15);
+                padding: 15px;
+                border-radius: 0 0 0 4px;
+            }
+
+            .splash-container .links ul {
+                display: block;
+                padding: 0;
+                margin: 0;
+            }
+            .splash-container .links ul li {
+                display: inline;
+                font-size: 22px;
+                padding: 0px 5px;
+             
+            }
+
+            .splash-container .links ul li a {
+                text-decoration: none;
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    <div class="splash-container">
+        <div class="title">
+            <img src="~/Images/myAvatar.png" />
+            <h1> Harry Nerurker </h1>
+            <h4> Student at Swinburne</h4>
+            
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="http://facebook.com">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                        </a>
+                </li>
+                <li>
+                    <a href="http://linkedin.com">
+                        <i class="fab fa-linkedin-in"></i>
+                        </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
